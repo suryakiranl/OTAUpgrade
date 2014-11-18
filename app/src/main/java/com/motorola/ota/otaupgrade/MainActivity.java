@@ -97,7 +97,7 @@ public class MainActivity extends Activity {
                 Log.d(TAG, "Number of files in downloads folder = " + dlFiles.length);
                 for(File file : dlFiles) {
                     Log.d(TAG, "File Name: " + file.getName());
-                    if(file.getName().startsWith("delta-sdcard")) {
+                    if(file.getName().startsWith("delta-sdcard") && file.getName().contains(Build.PRODUCT)) {
                         sourceFile = file;
                         break;
                     }
