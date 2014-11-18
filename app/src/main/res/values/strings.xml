@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mesh OTA Upgrade</string>
+    <string name="hello_world">></string>
+    <string name="action_settings">Settings</string>
+    <string name="validation_in_progress">Validating OTA Package ...</string>
+    <string name="device_already_upgraded">Device already up to date</string>
+    <string name="starting_ota">Starting OTA, Please wait ...</string>
+    <string name="ota_package_not_found">Could not find the OTA package. Please retry.</string>
+</resources>
