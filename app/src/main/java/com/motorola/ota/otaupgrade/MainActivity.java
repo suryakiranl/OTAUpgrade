@@ -125,7 +125,7 @@ public class MainActivity extends Activity {
      * @return - File object referring OTA file in /cache/recovery directory
      */
     private File copyOTASourceFileToCacheDirectory(File sourceFile) {
-        File otaFile;
+        File otaFile = null;
         if(sourceFile != null) {
             updateDisplay("Starting to copy OTA file to : " + Environment.getDownloadCacheDirectory());
             otaFile = new File(Environment.getDownloadCacheDirectory() + "/" + sourceFile.getName());
